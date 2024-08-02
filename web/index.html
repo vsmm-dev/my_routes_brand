@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Mapa de Paradas de Autobús Cercanas</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAis0QYTAb88ZOyTCRbGUF-NoEMSIm4lCo&callback=initMap" async defer></script>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo-container">
+            <img src="assets/images/logo.png" alt="Logo" class="logo">
+        </div>
+    </nav>
+    <div class="container">
+        <div class="sidebar">
+            <h2>Listado de Paradas de Autobús</h2>
+            <div class="stop-item" data-lat="20.6402102" data-lng="-103.3105452">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 1" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 1</h3>
+                        <p class="text-muted">Ubicación: 20.6402102, -103.3105452</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6389033" data-lng="-103.3102037">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 2" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 2</h3>
+                        <p class="text-muted">Ubicación: 20.6389033, -103.3102037</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6388481" data-lng="-103.3513083">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 3" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 3</h3>
+                        <p class="text-muted">Ubicación: 20.6388481, -103.3513083</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6386884" data-lng="-103.3105347">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 4" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 4</h3>
+                        <p class="text-muted">Ubicación: 20.6386884, -103.3105347</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6349325" data-lng="-103.2835546">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 5" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 5</h3>
+                        <p class="text-muted">Ubicación: 20.6349325, -103.2835546</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6316231" data-lng="-103.292251">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 6" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 6</h3>
+                        <p class="text-muted">Ubicación: 20.6316231, -103.292251</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6310332" data-lng="-103.2666455">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 7" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 7</h3>
+                        <p class="text-muted">Ubicación: 20.6310332, -103.2666455</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6245079" data-lng="-103.244455">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 8" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 8</h3>
+                        <p class="text-muted">Ubicación: 20.6245079, -103.244455</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6225945" data-lng="-103.2475369">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 9" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 9</h3>
+                        <p class="text-muted">Ubicación: 20.6225945, -103.2475369</p>
+                    </div>
+                </div>
+            </div>
+            <div class="stop-item" data-lat="20.6095452" data-lng="-103.3408591">
+                <div class="card">
+                    <img src="https://streetviewpixels-pa.googleapis.com/v1/thumbnail?panoid=80gYj-QinS0m4t9-HyFrqQ&cb_client=search.gws-prod.gps&w=408&h=240&yaw=187.76631&pitch=0&thumbfov=100" alt="Parada 10" class="stop-image">
+                    <div class="card-content">
+                        <h3>Parada 10</h3>
+                        <p class="text-muted">Ubicación: 20.6095452, -103.3408591</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="map"></div>
+    </div>
+    <script src="js/main.js"></script>
+</body>
+</html>
